@@ -1,0 +1,546 @@
+body {
+  margin: 0;
+  font-family: Inter;
+}
+.nav {
+  display: flex;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  background: rgba(245, 245, 247, 0.8);
+}
+.apple {
+  background-image: url(./image/apple-logo.svg);
+  width: 14px;
+  height: 44px;
+}
+.nav-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Inter;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+}
+.nav-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.search-but {
+  background-image: url(./image/search-but.svg);
+  width: 15px;
+  height: 44px;
+}
+.shop {
+  background-image: url(./image/shop.svg);
+  width: 14px;
+  height: 44px;
+}
+.line2 {
+  background-image: url(./image/2line.svg);
+  width: 18px;
+  height: 18px;
+  display: none;
+}
+.menu-text {
+  color: #1d1d1f;
+  text-align: center;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.iphone-pro {
+  background-image: url(./image/applepro16.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 692px;
+}
+.img-text {
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+  align-items: center;
+
+  color: white;
+  justify-content: center;
+}
+.i16 {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  justify-content: center;
+  align-self: stretch;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.ai {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-self: stretch;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(245, 245, 247, 1);
+  margin: 0;
+}
+.learn-buy {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Inter;
+}
+.learn {
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 999px;
+  background: #0071e3;
+}
+.buy {
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+  color: #0071e3;
+}
+.section2 {
+  background-image: url(./image/iphone16.jpg);
+  background-position: center;
+  height: 692px;
+}
+.white {
+  border-radius: 999px;
+  background: #fff;
+  color: black;
+}
+.white-border {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.section3 {
+  background-image: url(./image/giftapplelogo.jpg);
+  background-position: center;
+  height: 692px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.gift {
+  color: black;
+  font-size: 52px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+.holiday {
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.section4 {
+  display: flex;
+}
+.ipadair {
+  background-image: url(./image/ipadair.jpg);
+  background-position: center;
+  width: 50%;
+  height: 580px;
+}
+.airpods {
+  background-image: url(./image/airpods.jpg);
+  background-position: center;
+  width: 50%;
+  height: 580px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.section5 {
+  display: flex;
+}
+.watch {
+  background-image: url(./image/watch.jpg);
+  background-position: center;
+  width: 50%;
+  height: 580px;
+}
+.macbook {
+  background-image: url(./image/macbook.jpg);
+  background-position: center;
+  width: 50%;
+  height: 580px;
+}
+.black {
+  color: black;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.big {
+  background-image: url(./image/apple-logo.svg);
+  background-size: cover;
+  background-position: center;
+  height: 32px;
+  width: 26px;
+  margin-top: 50px;
+}
+.section6 {
+  display: flex;
+}
+.trade {
+  background-image: url(./image/trade.jpg);
+  background-position: center;
+  width: 50%;
+  height: 580px;
+}
+.card {
+  background-image: url(./image/card.jpg);
+  background-position: center;
+  width: 50%;
+  height: 580px;
+}
+.section7 {
+  display: flex;
+  overflow: scroll;
+  width: 100%;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.napo {
+  background-image: url(./image/napoleon.jpg);
+  background-size: cover;
+  background-position: center;
+  min-width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+}
+.pachin {
+  background-image: url(./image/pachinko.jpg);
+  background-size: cover;
+  background-position: center;
+  min-width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+}
+.pre {
+  background-image: url(./image/pressumed-innocent.jpg);
+  background-size: cover;
+  background-position: center;
+  min-width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+}
+.lady {
+  background-image: url(./image/lady-in-the-lake.jpg);
+  background-size: cover;
+  background-position: center;
+  min-width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+}
+.sea {
+  background-image: url(./image/season-pass.jpg);
+  background-size: cover;
+  background-position: center;
+  min-width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+}
+.ins {
+  background-image: url(./image/instigators.jpg);
+  background-size: cover;
+  background-position: center;
+  min-width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+}
+.base {
+  background-image: url(./image/baseball.jpg);
+  background-size: cover;
+  background-position: center;
+  min-width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+}
+.monkey {
+  background-image: url(./image/bad-monkey.jpg);
+  background-size: cover;
+  background-position: center;
+  min-width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+}
+.balls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 2px;
+}
+.grey-ball {
+  background-color: grey;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.grey-ball:hover {
+  background-color: black;
+}
+.section8 {
+  display: flex;
+  overflow: scroll;
+  width: 100%;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.scroll-track {
+  display: flex;
+  gap: 24px;
+  animation: s 40s linear infinite;
+}
+@keyframes s {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 768px) {
+  .nav {
+    justify-content: space-between;
+  }
+  .apple {
+    margin-left: 5px;
+  }
+  .nav-icons {
+    justify-content: flex-end;
+    margin-right: 5px;
+  }
+  .nav-text {
+    display: none;
+  }
+
+  .line2 {
+    display: block;
+  }
+  .menu-text {
+    align-self: stretch;
+  }
+  .iphone-pro {
+    background-image: url(./image/applepro16mid.jpg);
+    width: 100%;
+    height: 650px;
+  }
+  .section2 {
+    background-image: url(./image/iphone16mid.jpg);
+    width: 100%;
+    height: 650px;
+  }
+  .section3 {
+    width: 100%;
+    height: 650px;
+  }
+  .ipadair {
+    width: 50%;
+    height: 490px;
+  }
+
+  .i16 {
+    font-size: 30px;
+  }
+  .ai {
+    font-size: 18px;
+  }
+  .airpods {
+    width: 50%;
+    height: 490px;
+  }
+  .watch {
+    background-image: url(./image/watchmid.jpg);
+    width: 50%;
+    height: 490px;
+  }
+  .macbook {
+    background-image: url(./image/macbookmid.jpg);
+    width: 50%;
+    height: 490px;
+  }
+  .trade {
+    background-image: url(./image/trademid.jpg);
+    width: 50%;
+    height: 490px;
+  }
+  .card {
+    background-size: cover;
+    width: 50%;
+    height: 490px;
+  }
+  .movie {
+    min-width: 689px;
+    height: 368px;
+  }
+}
+@media (max-width: 390px) {
+  .nav {
+    justify-content: space-between;
+  }
+  .apple {
+    margin-left: 5px;
+  }
+  .nav-icons {
+    justify-content: flex-end;
+    margin-right: 5px;
+  }
+  .nav-text {
+    display: none;
+  }
+
+  .line2 {
+    display: block;
+  }
+  .menu-text {
+    align-self: stretch;
+  }
+  .iphone-pro {
+    background-image: url(./image/applepro16small.jpg);
+    width: 100%;
+    height: 500px;
+  }
+  .img-text {
+    height: 460px;
+    justify-content: flex-end;
+  }
+  .low-height {
+    justify-content: flex-start;
+  }
+  .i16 {
+    font-size: 30px;
+  }
+  .ai {
+    font-size: 18px;
+  }
+  .section2 {
+    background-image: url(./image/iphone16small.jpg);
+
+    width: 100%;
+    height: 500px;
+  }
+  .section3 {
+    width: 100%;
+    height: 500px;
+  }
+  .gift {
+    font-size: 30px;
+  }
+  .holiday {
+    font-size: 18px;
+  }
+  .section4 {
+    flex-direction: column;
+    width: 780px;
+  }
+
+  .section5 {
+    flex-direction: column;
+    width: 780px;
+  }
+  .watch {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .section6 {
+    flex-direction: column;
+    width: 780px;
+  }
+  .napo {
+    background-image: url(./image/movie1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 274px;
+    height: 495px;
+  }
+  .pachin {
+    background-image: url(./image/movie2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 274px;
+    height: 495px;
+  }
+  .pre {
+    background-image: url(./image/movie3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 274px;
+    height: 495px;
+  }
+  .lady {
+    background-image: url(./image/movie4.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 274px;
+    height: 495px;
+  }
+  .sea {
+    background-image: url(./image/movie5.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 274px;
+    height: 495px;
+  }
+  .ins {
+    background-image: url(./image/movie6.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 274px;
+    height: 495px;
+  }
+  .base {
+    background-image: url(./image/movie7.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 274px;
+    height: 495px;
+  }
+  .monkey {
+    background-image: url(./image/movie8.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 274px;
+    height: 495px;
+  }
+}
